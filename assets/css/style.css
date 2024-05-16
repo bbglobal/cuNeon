@@ -1,0 +1,514 @@
+@font-face {
+    font-family: cuNeon sans;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+    font-family: cuNeon sans, sans-serif;
+}
+
+header {
+    background: #101010;
+}
+
+#top-nav {
+    padding: 0px 260px 0px 260px;
+    height: 40px;
+    border-bottom: 1px solid;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #6D758D;
+    font-family: cuNeon sans, sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.38px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #6D758D;
+}
+
+.active {
+    color: #F26201;
+}
+
+#header {
+    height: 92px;
+}
+
+#logo {
+    font-family: cuNeon sans, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 16.8px;
+    color: #fff;
+}
+
+.dot {
+    color: #F26201;
+}
+
+.contact a {
+    font-family: cuNeon sans, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 22px;
+    color: #fff;
+    text-align: right;
+}
+
+form {
+    position: relative;
+}
+
+input {
+    width: 671px;
+    height: 50px;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px #fff;
+}
+
+::placeholder {
+    color: #71788B;
+    margin-left: 5px;
+}
+
+.btn-search {
+    background: #2453D4;
+    border-radius: 8px;
+    padding: 11px 11px 11.69px 11.62px;
+    border: #2453D4;
+    position: absolute;
+    top: 1.5px;
+    left: 625.45px;
+}
+
+#sticky-nav {
+    height: 60px;
+    background: #2453D4;
+    position: sticky;
+}
+
+#sticky-nav a {
+    color: #fff;
+    padding: 0px 20.33px 0px 21px;
+}
+
+#sticky-nav .active a {
+    color: #101010;
+}
+
+.notification {
+    font-family: cuNeon sans, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    padding: 0px 6.38px 0px 6.62px;
+    background: #F26300;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    bottom: 12px;
+}
+
+.neon-screen {
+    position: relative;
+    background: #31333E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.icon {
+    position: absolute;
+    top: 1rem;
+}
+
+.price {
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+}
+
+.pound {
+    font-family: cuNeon sans, sans-serif;
+    font-size: 42px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.from {
+    font-family: cuNeon sans, sans-serif;
+    font-size: 18px;
+    color: #F6F7FC;
+    opacity: 40%;
+    font-weight: 600;
+}
+
+.size {
+    font-family: cuNeon sans, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn-opt {
+    padding: 0px 24px 0px 24px;
+    background: #fff;
+    border-radius: 7px;
+    width: 154px;
+    height: 46px;
+    color: #2453D4;
+    position: absolute;
+    bottom: 1rem;
+}
+
+#left {
+    left: 2rem;
+}
+
+#right {
+    right: 2rem;
+}
+
+.step-number {
+    background-color: #5761fe;
+    color: #fff;
+    border-radius: 3px;
+    padding: 0px 10px;
+    font-size: 16px;
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
+}
+
+.step-1-title {
+    color: #828282;
+    font-size: 12px;
+    text-align: left;
+    margin: 5px 0 10px;
+    display: flex;
+    margin: 10px 0;
+}
+
+textarea#input_text {
+    width: 60%;
+    height: 120px;
+}
+
+textarea#input_text {
+    text-align: center;
+    padding-top: 16px;
+    background: #f5f5f5;
+    border-radius: 12px;
+    border: 1px solid #b9b9b9;
+    height: 150px;
+    width: 100%;
+    resize: none;
+}
+
+div.step-1-input-container {
+    display: flex;
+    flex-direction: row;
+}
+
+div.logo-quote-container {
+    background-color: #5761fe;
+    margin-left: 20px;
+    border-radius: 12px;
+    text-transform: uppercase;
+}
+
+div.logo-quote-container div.logo-text {
+    color: #ff84c7;
+    margin: 17px 25px 7px;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+}
+
+div.logo-quote-container a.quote-text {
+    color: #fff;
+    border: 1px solid #ff84c7;
+    padding: 4px 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+div.step-content {
+    padding: 0;
+    height: auto;
+    margin-top: 0;
+    overflow: visible;
+}
+
+div.step-content {
+    margin-top: 58px;
+    padding: 0 15px;
+    overflow-y: auto;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.simplebar-content-wrapper {
+    direction: inherit;
+    box-sizing: border-box !important;
+    position: relative;
+    display: block;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.simplebar-content:before,
+.simplebar-content:after {
+    content: ' ';
+    display: table;
+}
+
+div.step-title {
+    color: #828282;
+    font-size: 12px;
+    text-align: left;
+    margin: 0 0 10px;
+}
+
+.why {
+    font-size: 3rem;
+    color: #000;
+    font-weight: bolder;
+    margin: calc(4vw + 1rem);
+}
+
+.p {
+    margin: 0 calc(5vw + 1rem);
+}
+
+figure img {
+    border-radius: 20px;
+    cursor: pointer;
+    transform-origin: center;
+    transition: transform 1.5s cubic-bezier(.22, 1, .36, 1);
+}
+
+figure {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+figure img:hover {
+    transform: scale(1.06);
+}
+
+.cta {
+    background-color: #d038a0;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    background-size: 0;
+}
+
+.container-fluid h2 {
+    font-weight: bolder;
+}
+
+.previous {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: none;
+}
+
+.next {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: none;
+}
+
+.color {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5px 16px;
+}
+
+.choose-size {
+    background: #F4F4F4;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.board {
+    padding: 10px;
+    border-radius: 10px;
+    background: #F4F4F4;
+    border: 1px solid;
+}
+
+
+.bbg {
+    padding: 5px;
+    border-radius: 10px;
+    background: #F4F4F4;
+    border: 1px solid;
+
+}
+
+.add_to {
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.font {
+    padding: 5px;
+    border-radius: 10px;
+    background: #F4F4F4;
+    border: 1px solid;
+    margin: 5px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.cart-text {
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+    background: #F4F4F4;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.bg-color {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+footer {
+    background-color: #1A1A1A;
+    color: #CED5E3;
+}
+
+footer a {
+    font-size: 16px;
+    color: #CED5E3;
+}
+
+footer div {
+    margin: 20px 0;
+}
+
+.menu-extras {
+    display: none;
+}
+
+@media (max-width: 991.98px) {
+
+    #sticky-nav,
+    #header,
+    #top-nav {
+        display: none !important;
+    }
+
+    ul#my-nav {
+        margin-bottom: 0 !important;
+    }
+
+    .menu-extras {
+        display: block;
+        background-color: #101010;
+        color: #ffffff;
+    }
+
+    #menu-extra {
+        background-color: #101010;
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        top: 50px;
+        left: -100%;
+        transition: all 0.5s;
+    }
+
+    #menu-drop {
+        display: none;
+    }
+
+    #menu-drop a {
+        color: #ef2a03;
+    }
+
+    #check {
+        display: none;
+    }
+
+    #check:checked~#menu-extra {
+        left: 0;
+    }
+
+    #hamberger {
+        transition: ease all .5s;
+    }
+
+    #check:checked~#my-nav #hamberger {
+        transform: rotate(90deg);
+    }
+
+    .menu-extras ul li {
+        list-style: none;
+    }
+
+    .btn-search {
+        left: 325.45px;
+    }
+
+    input {
+        width: 370px;
+    }
+
+}
+
+@media (max-width: 399.98px) {
+
+    .btn-search {
+        left: 255px;
+    }
+
+    input {
+        width: 300px;
+    }
+}
